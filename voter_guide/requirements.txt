@@ -1,14 +1,15 @@
-Django==1.5.8
+Django==3.2.15
 django-json-field==0.5.5
-django-filter==0.7
+django-filter==2.4.0
 dj-database-url==0.2.2
 dj-static==0.0.5
-gunicorn==18.0
+gunicorn==19.10.0
 psycopg2==2.5.1
 static==0.4
 django-pagination==1.0.7
-djangorestframework==2.3.13
-django-debug-toolbar==1.2.1
+djangorestframework==3.11.2
+django-debug-toolbar==1.11.1
 south==0.8.4
 django-discover-runner==1.0
 coverage==3.7.1
+sqlparse>=0.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
