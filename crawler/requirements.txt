@@ -1,5 +1,5 @@
 Scrapy==0.24.4
-Twisted==14.0.2
+Twisted==24.7.0rc1
 cffi==0.8.6
 lxml==3.4.0
 queuelib==1.2.2
