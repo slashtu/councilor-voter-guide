@@ -4,3 +4,4 @@ cffi==0.8.6
 lxml==3.4.0
 queuelib==1.2.2
 requests==2.4.3
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
